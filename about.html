@@ -2,18 +2,70 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>About me page</title>
 </head>
 
 <body>
-    <h1>
-        About me
-    </h1>
-    <a href="./index.html">Portfolio</a>
-
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-center" title="Home" href="./index.html">Liubov Rohachevska</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" title="Home" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" title="About me" href="./about.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" title="Contacts" href="./about.html#contact">Contact me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h1>About me</h1>
+  <h3>Front-end developer from Kyiv, Ukraine</h3>
+  <div class="about-paragraphs text-center">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+      aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+      alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+      blanditiis harum.
+    </p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <img src="images/yoga.png" class="img-fluid rounded p-2 shadow" />
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/weather.png" class="img-fluid rounded p-2 shadow" />
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/basicHW.png " class="img-fluid rounded p-2 shadow" />
+      </div>
+    </div>
+  </div>
+  <div id="contact" class="mt-5">
+    <h2>📮 Contact me</h2>
+    <a href="mailto:shecodes.gmail.com" title="Email" class="email-link">
+      shecodes.gmail.com
+    </a>
+  </div>
 </body>
 
 </html>
